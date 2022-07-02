@@ -1,3 +1,19 @@
+/* Sunny's solution */
+/* Solution 1 to the para part */
+.para {
+  color: hsl(0, 100%, 50%);
+  font-size: 22px;
+}
+
+.small-para {
+  font-size: 14px;
+}
+
+/* 
+  Alternative solution to the para part
+  Simply move the .para class selector to after the .small-para class selector
+*/
+/*
 .para,
 .small-para {
   color: hsl(0, 100%, 50%);
@@ -10,8 +26,9 @@
 .para {
   font-size: 22px;
 }
+*/
 
-.confirm {
+.button.confirm {
   background: green;
   color: white;
   font-weight: bold;
@@ -23,7 +40,10 @@
   font-size: 20px;
 }
 
-.child {
+
+/* Solution on the div part */
+/* Solution 1 */
+.text .child {
   color: red;
   font-size: 14px;
 }
@@ -32,3 +52,16 @@ div.text {
   color: green;
   font-size: 22px;
 }
+
+/* Other alternative solution */
+/*
+div.text {
+  color: green;
+  font-size: 22px;
+}
+
+  div .child {
+  color: red;
+  font-size: 14px;
+}
+*/
