@@ -1,0 +1,24 @@
+/* first answer */
+.odd {
+    background-color: rgb(199, 74, 126);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+/* second answer */
+#second_element {
+    color: hsl(219, 44%, 50%);
+    font-size: 36px;
+}
+
+/* third answer */
+.odd.third_element {
+    font-size: 24px;
+}
+
+/* fourth answer */
+#fourth_element{
+    background-color: #73af73;
+    font-size: 24px;
+    font-weight: 700;
+}
+
