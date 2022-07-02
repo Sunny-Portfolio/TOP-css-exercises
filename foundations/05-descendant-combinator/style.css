@@ -1,0 +1,27 @@
+/* Sunny's Solution (selection by type) */
+/*
+div p {
+    background-color: #c7d358;
+    color: #c45252;
+    font-size: 20px;
+    text-align: center;
+}
+*/
+
+/* Sunny's Solution (selection by class) */
+/*
+.container .text {
+    background-color: #c7d358;
+    color: #c45252;
+    font-size: 20px;
+    text-align: center;
+}
+*/
+
+/* Sunny's Solution (selection by type and class) */
+div .text {
+    background-color: #c7d358;
+    color: #c45252;
+    font-size: 20px;
+    text-align: center;
+}
